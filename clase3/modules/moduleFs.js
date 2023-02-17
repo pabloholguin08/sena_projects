@@ -29,7 +29,7 @@ const usuario = os.userInfo().username;
 
 const fin = (`Usuario: ${usuario} \n Procesador: ${procesador} \n Memoria: ${memoriaTotal} \n Version:${version}`).toString()
 
-fs.writeFileSync('../../ejemplo.js', fin)
+fs.writeFileSync('../ejemplo.js', fin)
 
 // for(let i=1;i<=;i++){
 //     const hola = i+`\n`;
@@ -37,3 +37,12 @@ fs.writeFileSync('../../ejemplo.js', fin)
 //     flag: 'a', //agregar
 // });
 // }
+
+
+
+fs.readFile('../on.js','utf-8',(err,data)=>{
+    if(err){
+        console.log(err)
+    }
+    console.log(data)
+})
