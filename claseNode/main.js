@@ -1,5 +1,5 @@
-let cargarDatosPersona = require('./modulos/datosPersona.js.js');
-let cargarDatosCargo = require('./modulos/datosCargo.js');
+let cargarDatosPersona = require('./modules/datosPersona.js');
+let cargarDatosCargo = require('./modules/datosCargo.js');
 
 
 let personasCantidad = (personas,cargos)=>{
