@@ -1,0 +1,11 @@
+{
+  "name": "clase5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ej": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
